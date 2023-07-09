@@ -8,6 +8,7 @@
 }
 a {
 	text-decoration: none;
+	color: inherit;
 }
 ul, ol, li {
 	list-style: none;
@@ -26,5 +27,157 @@ input, button {
 }
 html, body {
 	height: 100%;
-	line-height: 1;
+}
+html {
+	scroll-behavior: smooth; 
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #000;
+}
+
+/*----------------Header-------------------*/
+header {
+	min-height: 80px;
+	display: flex;
+	align-items: center;
+	background-color: #ee8b2e;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: content-box;
+}
+
+/*-------------Main-------------*/
+.main {
+	flex: 1 1 auto;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav__link {
+	padding: 0 20px;
+	line-height: 50px;
+	transition: color 0.3s ease 0s;
+	color: #fff;
+}
+
+.nav__link:hover {
+	color: #000;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: 50%;
+	padding: 20px 10px 20px 10px;
+}
+@media (max-width: 768px) {
+	.section {
+		flex: 0 1 100%;
+	}
+}
+
+.section-title {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0.7px;
+	color: #2a302c;
+	margin-bottom: 20px;
+}
+.section__item {
+	margin-bottom: 10px;
+}
+
+.section__item_phone {
+	background: url(assets/svg/phone.svg);
+}
+
+.section__item a:hover {
+	text-decoration: underline;
+}
+
+.section pre {
+	display: inline-block;
+}
+
+.main__profile {
+	flex: 0 1 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+	border-bottom: 3px solid #f3be8c;
+}
+.main__title {
+	font-size: 34px;
+	text-transform: uppercase;
+	position: relative;
+}
+.main__title::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	bottom: -15px;
+	left: 0;
+	background-color: #ee8b2e;
+}
+
+.section__circle-photo img {
+	
+	width: 200px;
+	height: 300px;
+	border-radius: 5%;
+	object-fit:cover;
+}
+/*----------------Footer--------------------*/
+
+.footer {
+	background-color: #ee8b2e;
+	padding: 30px 0px 30px 0px;
+}
+.footer__copy {
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	color: rgb(255, 255, 255);
+}
+.footer__copy-link {
+	margin-left: 10px;
+	transition: color 0.3s ease 0s;
+}
+.footer__copy-link:hover {
+	color: #000;
+}
+
+.container-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__course-link {
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
 }
