@@ -6,7 +6,7 @@
 - E-mail: gurin.nord@gmail.com
 - GitHub: [dron185](https://github.com/dron185)
 - Telegram: @dron_by
-- Discord: Andrei Huryn (@dron185)
+- Discord: dronby (@dron185)
 
 ## About Me:
 
