@@ -4,7 +4,6 @@
 
 - Phone: +375 44 7102539
 - E-mail: gurin.nord@gmail.com
-
 - GitHub: [dron185](https://github.com/dron185)
 - Telegram: @dron_by
 - Discord: Andrei Huryn (@dron185)
@@ -18,12 +17,23 @@ I am 38 years old, graduated from Belarusian State University of Transport, work
 - HTML
 - CSS/SCSS
 - JavaScript (Basics)
+- Git
 
 ## Code example:
 
+**The task from the Codewars website:** Create a function strCount (takes an object as argument) that will count all string values inside an object.
+
 ```
-function multiply(a, b){
-  return a * b;
+function strCount(obj){
+  let countString = 0;
+  for (let i in obj) {
+    if (typeof obj[i] == 'string') {
+      countString++;
+    } else if (typeof obj[i] == 'object') {
+      countString += strCount(obj[i]);
+    }
+  }
+  return countString;
 }
 ```
 
@@ -35,6 +45,7 @@ function multiply(a, b){
 
 * Courses:
   - [Web development for beginners: HTML and CSS](https://stepik.org/cert/1961186)
+  - [JS/FE PRE-SCHOOL 2023Q2 (JAVASCRIPT)](https://app.rs.school/certificate/z3vkji4a)
 
 ## English:
 
