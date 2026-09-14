@@ -29,7 +29,7 @@ html, body {
 	height: 100%;
 }
 html {
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
 }
 
 body {
@@ -145,7 +145,7 @@ header {
 }
 
 .section__circle-photo img {
-	
+
 	width: 200px;
 	height: 300px;
 	border-radius: 5%;

@@ -10,14 +10,19 @@
 
 ## About Me:
 
-I am 38 years old, graduated from Belarusian State University of Transport, worked as a design engineer after university, then went into sales and worked as a sales manager, my goal is to become a frontend developer, this profession allows you to create something new and constantly develop, my strengths are responsibility, the desire to acquire new skills, learning ability.
+Hi, I am a Frontend developer with 1+ year of experience in creating applications in JavaScript, TypeScript, React, Next.js, Redux, and
+related libraries. I am constantly improving my working technologies. I prefer to spend my free time reading specialized literature, documentation, and also at my leisure I can solve problems on Codewars, I'm improving my English. I am open to new opportunities and suggestions.
 
 ## Skills:
 
 - HTML
 - CSS/SCSS
-- JavaScript (Basics)
+- JavaScript
 - Git
+- Next.js
+- React
+- TypeScript
+- Redux Toolkit
 
 ## Code example:
 
